@@ -6,8 +6,10 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <body class="font-sans w-min-1/2 py-7 m-0">
-    <div class="navBar flex flex-row w-full justify-between font-bold px-25">
+  <body class="font-sans w-min-1/2 pt-7 m-0">
+    <div
+      class="navBar flex flex-row w-full justify-between items-center font-bold px-25"
+    >
       <img
         class="w-45"
         src="./assets/portfolio-logo.png"
@@ -15,14 +17,14 @@
       />
 
       <div class="navBarMenu text-xl flex flex-row gap-20">
-        <button>About Me</button>
-        <button>Skills</button>
-        <button>Project</button>
-        <button>Contact Me</button>
+        <a href="#aboutMe">About Me</a>
+        <a href="#mySkills">Skills</a>
+        <a href="#myProject">Project</a>
+        <a href="#contactMe">Contact Me</a>
       </div>
 
       <div
-        class="downloadResume bg-black text-white w-35 h-12 flex flex-row rounded-md justify-center place-items-center gap-3"
+        class="downloadResume bg-black text-white w-35 h-12 flex flex-row rounded-md justify-center items-center gap-3"
       >
         <p class="text-lg">Resume</p>
         <img
@@ -33,7 +35,9 @@
       </div>
     </div>
 
-    <div class="aboutMe flex flex-row pt-10 w-full justify-between px-25">
+    <div
+      class="aboutMe flex flex-row pt-10 w-full justify-between items-center px-25"
+    >
       <div class="aboutMeDesc">
         <p class="text-5xl pt-20 leading-[1.5]">
           Hello I'am <text class="font-extrabold">Evren Shah.</text> <br />
@@ -55,7 +59,7 @@
 
         <div class="aboutMeMedia flex flex-row gap-5">
           <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center place-items-center bg-black"
+            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center bg-black"
           >
             <img
               class="w-6 h-6"
@@ -64,7 +68,7 @@
             />
           </div>
           <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center place-items-center"
+            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
           >
             <img
               class="w-6 h-6"
@@ -73,7 +77,7 @@
             />
           </div>
           <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center place-items-center"
+            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
           >
             <img
               class="w-6 h-6"
@@ -82,7 +86,7 @@
             />
           </div>
           <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center place-items-center"
+            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
           >
             <img
               class="w-6 h-6"
@@ -101,13 +105,14 @@
     </div>
 
     <div
-      class="mySkills mt-30 flex flex-col gap-20 w-full justify-center place-items-center mb-20 px-25"
+      class="mySkills mt-30 flex flex-col gap-20 w-full justify-center items-center mb-20 px-25"
+      id="mySkills"
     >
       <p class="text-5xl">My <text class="font-extrabold">Skills</text></p>
       <div class="flex flex-col w-full h-95 justify-between">
         <div class="flex flex-row justify-between">
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -118,7 +123,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -129,7 +134,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -140,14 +145,14 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img class="w-15 h-15" src="./assets/icon-git.svg" alt="Git Logo" />
             <p class="text-xl font-bold">Git</p>
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -158,7 +163,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -169,7 +174,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -182,7 +187,7 @@
 
         <div class="flex flex-row justify-between">
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -193,7 +198,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -204,7 +209,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -215,7 +220,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -226,7 +231,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -237,7 +242,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -248,7 +253,7 @@
           </div>
 
           <div
-            class="border-2 w-40 h-40 justify-center place-items-center flex flex-col gap-5"
+            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
           >
             <img
               class="w-15 h-15"
@@ -262,7 +267,7 @@
     </div>
 
     <div
-      class="myExperience bg-black px-25 text-white py-20 w-full flex flex-col justify-center place-items-center"
+      class="myExperience bg-black px-25 text-white py-20 w-full flex flex-col justify-center items-center"
     >
       <p class="text-5xl mb-20">
         My <text class="font-extrabold">Experience</text>
@@ -287,6 +292,7 @@
 
               <p class="text-zinc-400 font-bold">Nov 2019 - Present</p>
             </div>
+
             <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
               As a Senior Software Engineer at Google, I played a pivotal role
               in developing innovative solutions for Google's core search
@@ -315,6 +321,7 @@
 
               <p class="text-zinc-400 font-bold">Jan 2017 - Oct 2019</p>
             </div>
+
             <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
               At Youtube, I served as a Software Engineer, focusing on the
               design and implementation of backend systems for the social media
@@ -344,6 +351,7 @@
 
               <p class="text-zinc-400 font-bold">Jan 2016 - Dec 2017</p>
             </div>
+
             <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
               During my tenure at Apple, I held the role of Software Architect,
               where I played a key role in shaping the architecture of
@@ -356,7 +364,7 @@
       </div>
     </div>
 
-    <div class="aboutMe flex flex-row px-25 mt-15 gap-20">
+    <div class="aboutMe flex flex-row px-25 mt-15 gap-20" id="aboutMe">
       <img
         class="w-125 h-125 mb-15"
         src="assets/aboutMeLogo.png"
@@ -394,41 +402,49 @@
       </div>
     </div>
 
-    <div class="myProject px-25 py-15 bg-black w-full text-white">
-      <p
-        class="text-5xl flex flex-row gap-4 mb-10 justify-center place-items-center"
-      >
+    <div
+      class="myProject px-25 py-15 bg-black w-full text-white flex flex-col gap-10"
+      id="myProject"
+    >
+      <p class="text-5xl flex flex-row gap-4 justify-center items-center">
         My <text class="font-extrabold">Projects</text>
       </p>
 
-      <div class="flex flex-row">
+      <div class="flex flex-row justify-center items-center gap-10">
         <img
           class="w-175 h-125"
           src="./assets/myProject1.png"
           alt="Project 1"
         />
-        <div>
-          <p>01</p>
-          <p>Title</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-            enim nisi, ipsa explicabo optio quis totam architecto ipsum earum
-            illo porro deleniti repellendus ut quam obcaecati voluptates eum
-            laborum officia.
+        <div class="flex flex-col gap-7">
+          <p class="text-5xl font-extrabold">01</p>
+          <p class="font-bold text-3xl">Crypto Screener Application</p>
+
+          <p class="text-zinc-400 text-base">
+            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to specimen book.
           </p>
+          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
         </div>
       </div>
 
-      <div class="flex flex-row">
-        <div>
-          <p>02</p>
-          <p>Title</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-            enim nisi, ipsa explicabo optio quis totam architecto ipsum earum
-            illo porro deleniti repellendus ut quam obcaecati voluptates eum
-            laborum officia.
+      <div class="flex flex-row justify-center items-center gap-10">
+        <div class="flex flex-col gap-7">
+          <p class="text-5xl font-extrabold">02</p>
+          <p class="font-bold text-3xl">
+            Euphoria - Ecommerce (Apparels) Website Template
           </p>
+
+          <p class="text-zinc-400 text-base">
+            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to specimen book. when an unknown
+            printer took a galley of type and scrambled it to specimen book.
+          </p>
+          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
         </div>
 
         <img
@@ -438,102 +454,230 @@
         />
       </div>
 
-      <div class="flex flex-row">
+      <div class="flex flex-row justify-center items-center gap-10">
         <img
           class="w-175 h-125"
           src="./assets/myProject3.png"
           alt="Project 3"
         />
-        <div>
-          <p>03</p>
-          <p>Title</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-            enim nisi, ipsa explicabo optio quis totam architecto ipsum earum
-            illo porro deleniti repellendus ut quam obcaecati voluptates eum
-            laborum officia.
+        <div class="flex flex-col gap-7">
+          <p class="text-5xl font-extrabold">03</p>
+          <p class="font-bold text-3xl">Blog Website Template</p>
+
+          <p class="text-zinc-400 text-base">
+            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to specimen book.
+          </p>
+          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="myTestimonial px-25 py-15 flex flex-col justify-center items-center gap-15"
+    >
+      <p class="text-5xl flex flex-row gap-4 justify-center items-center">
+        My <text class="font-extrabold">Testimonial</text>
+      </p>
+
+      <div class="flex flex-row w-full justify-between">
+        <div
+          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center gap-7"
+        >
+          <div class="relative">
+            <img src="./assets/testimoni1.png" alt="Testimonial 1" />
+            <div
+              class="absolute right-0 bottom-0 bg-black rounded-full h-8 w-8 flex justify-center items-center"
+            >
+              <img
+                class="h-3 w-3"
+                src="./assets/quoteLogoWhite.png"
+                alt="Quote Logo"
+              />
+            </div>
+          </div>
+
+          <p class="text-zinc-600 font-medium">
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <hr class="w-40 border-2" />
+          <p class="font-bold text-2xl">Evren Shah</p>
+          <p class="font-semibold text-zinc-500">Designer</p>
+        </div>
+
+        <div
+          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center bg-black text-white gap-7"
+        >
+          <div class="relative">
+            <img src="./assets/testimoni2.png" alt="Testimonial 2" />
+            <div
+              class="absolute right-0 bottom-0 bg-white rounded-full h-8 w-8 flex justify-center items-center"
+            >
+              <img
+                class="h-3 w-3"
+                src="./assets/quoteLogoBlack.png"
+                alt="Quote Logo"
+              />
+            </div>
+          </div>
+
+          <p class="text-white font-medium">
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <hr class="w-40 border-2" />
+          <p class="font-bold text-2xl">Flora Sheen</p>
+          <p class="font-semibold text-white">Designer</p>
+        </div>
+
+        <div
+          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center gap-7"
+        >
+          <div class="relative">
+            <img src="./assets/testimoni3.png" alt="Testimonial 3" />
+            <div
+              class="absolute right-0 bottom-0 bg-black rounded-full h-8 w-8 flex justify-center items-center"
+            >
+              <img
+                class="h-3 w-3"
+                src="./assets/quoteLogoWhite.png"
+                alt="Quote Logo"
+              />
+            </div>
+          </div>
+
+          <p class="text-zinc-600 font-medium">
+            I recently had to jump on 10+ different calls across eight different
+            countries to find the right owner.
+          </p>
+          <hr class="w-40 border-2" />
+          <p class="font-bold text-2xl">Evren Shah</p>
+          <p class="font-semibold text-zinc-500">Designer</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="getInTouch px-25 py-15 flex flex-row w-full gap-30 justify-center items-center"
+      id="contactMe"
+    >
+      <div class="w-2/5">
+        <div class="flex flex-col gap-5">
+          <input
+            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
+            type="text"
+            placeholder="Your Name"
+            name=""
+            id=""
+          />
+          <input
+            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
+            type="email"
+            placeholder="Email"
+            name=""
+            id=""
+          />
+          <input
+            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
+            type="text"
+            placeholder="Your Website (If exists)"
+            name=""
+            id=""
+          />
+          <textarea
+            class="border-2 rounded-md h-45 w-full p-5 font-semibold text-xl min-h-45"
+            placeholder="How can I help?*"
+            name=""
+            id=""
+          ></textarea>
+
+          <div class="flex flex-row justify-between h-full">
+            <button
+              class="bg-black text-white font-semibold text-2xl p-5 rounded-xl h-full"
+            >
+              Get In Touch
+            </button>
+
+            <div
+              class="w-18 flex justify-center items-center rounded-xl border-2 bg-black"
+            >
+              <img
+                class="w-6 h-6"
+                src="./assets/whiteFacebookLogo.png"
+                alt="Facebook Logo"
+              />
+            </div>
+
+            <div
+              class="w-18 flex justify-center items-center rounded-xl border-2"
+            >
+              <img
+                class="w-6 h-6"
+                src="./assets/redditLogo.png"
+                alt="Reddit Logo"
+              />
+            </div>
+
+            <div
+              class="w-18 flex justify-center items-center rounded-xl border-2"
+            >
+              <img
+                class="w-6 h-6"
+                src="./assets/twitterLogo.png"
+                alt="Twitter Logo"
+              />
+            </div>
+
+            <div
+              class="w-18 flex justify-center items-center rounded-xl border-2"
+            >
+              <img
+                class="w-6 h-6"
+                src="./assets/discordLogo.png"
+                alt="Discord Logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-3/5 flex flex-col gap-10">
+        <div class="flex flex-col gap-10">
+          <p class="text-7xl leading-[1.1] font-extrabold">
+            Let's
+            <text style="-webkit-text-stroke: 3px black" class="text-white"
+              >talk</text
+            >
+            for
+            <br />
+            Something special
+          </p>
+
+          <p class="text-zinc-500 text-xl font-semibold">
+            I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="myTestimonial">
-      <div>
-        <img src="./assets/testimoni1.png" alt="Testimonial 1" />
-        <p>,,</p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-          id soluta, facere sequi earum asperiores voluptas perferendis labore,
-          nesciunt incidunt fugit ab vero quaerat totam, nemo quod consectetur
-          repellat minus.
-        </p>
-        <hr />
-        <p>Evren Shah</p>
-        <p>Designer</p>
-      </div>
-
-      <div>
-        <img src="./assets/testimoni2.png" alt="Testimonial 2" />
-        <p>,,</p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-          id soluta, facere sequi earum asperiores voluptas perferendis labore,
-          nesciunt incidunt fugit ab vero quaerat totam, nemo quod consectetur
-          repellat minus.
-        </p>
-        <hr />
-        <p>Evren Shah</p>
-        <p>Designer</p>
-      </div>
-
-      <div>
-        <img src="./assets/testimoni3.png" alt="Testimonial 3" />
-        <p>,,</p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-          id soluta, facere sequi earum asperiores voluptas perferendis labore,
-          nesciunt incidunt fugit ab vero quaerat totam, nemo quod consectetur
-          repellat minus.
-        </p>
-        <hr />
-        <p>Evren Shah</p>
-        <p>Designer</p>
-      </div>
-    </div>
-
-    <div class="getInTouch">
-      <div>
-        <div>
-          <input type="text" name="" id="" />
-          <input type="email" name="" id="" />
-          <input type="text" name="" id="" />
-          <input type="text" name="" id="" />
-        </div>
-        <div>
-          <button>Get In Touch</button>
-          <img src="./assets/facebookLogo.png" alt="Facebook Logo" />
-          <img src="./assets/redditLogo.png" alt="Reddit Logo" />
-          <img src="./assets/twitterLogo.png" alt="Twitter Logo" />
-          <img src="./assets/discordLogo.png" alt="Discord Logo" />
+        <div class="flex flex-col gap-3">
+          <p class="font-bold text-3xl">Youremail@gmail.com</p>
+          <p class="font-bold text-3xl">1234567890</p>
         </div>
       </div>
-
-      <div>
-        <p>Title</p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          consectetur velit aut culpa odit totam, dolorum repudiandae,
-          asperiores consequuntur soluta saepe reprehenderit vel nesciunt
-          quisquam doloremque sit aspernatur accusantium fugit.
-        </p>
-        <p>Email</p>
-        <p>No.Telp</p>
-      </div>
     </div>
 
-    <div class="footer">
-      <img src="./assets/portfolio-logo.png" alt="Portfolio Logo" />
-      <div>
+    <div
+      class="footer px-25 py-5 text-white bg-black flex flex-row justify-between h-full items-center"
+    >
+      <img
+        class="w-35 h-10"
+        src="./assets/portfolioLogoWhite.png"
+        alt="Portfolio Logo"
+      />
+      <div class="flex flex-col h-full text-right font-semibold text-lg">
         <p>@ 2019-2023 Personal</p>
         <p>Made in Figma</p>
       </div>
