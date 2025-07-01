@@ -6,681 +6,235 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <body class="font-sans w-min-1/2 pt-7 m-0">
-    <div
-      class="navBar flex flex-row w-full justify-between items-center font-bold px-25"
+
+  <body class="m-0 py-7">
+    <header
+      class="navbar flex flex-row justify-between font-semibold h-full px-25"
     >
       <img
-        class="w-45"
         src="./assets/portfolio-logo.png"
+        class="h-12 w-38.5 flex justify-center items-center"
         alt="Portfolio Logo"
       />
 
-      <div class="navBarMenu text-xl flex flex-row gap-20">
-        <a href="#aboutMe">About Me</a>
-        <a href="#mySkills">Skills</a>
-        <a href="#myProject">Project</a>
-        <a href="#contactMe">Contact Me</a>
-      </div>
+      <nav class="text-2xl font-bold h-14 flex justify-center items-center">
+        <ul class="flex flex-row gap-15">
+          <a href="">About Me</a>
+          <a href="">Skills</a>
+          <a href="">Project</a>
+          <a href="">Contact Me</a>
+        </ul>
+      </nav>
 
-      <div
-        class="downloadResume bg-black text-white w-35 h-12 flex flex-row rounded-md justify-center items-center gap-3"
+      <button
+        type="button"
+        class="bg-black w-40 h-14 text-2xl flex flex-row justify-center items-center text-white gap-3 rounded-md"
       >
-        <p class="text-lg">Resume</p>
+        Resume
         <img
-          class="w-6 h-6"
           src="./assets/download-logo.png"
+          class="w-6 h-6"
           alt="Download Logo"
         />
-      </div>
-    </div>
+      </button>
+    </header>
 
-    <div
-      class="aboutMe flex flex-row pt-10 w-full justify-between items-center px-25"
-    >
-      <div class="aboutMeDesc">
-        <p class="text-5xl pt-20 leading-[1.5]">
-          Hello I'am <text class="font-extrabold">Evren Shah.</text> <br />
-          <text class="font-extrabold">Frontend</text>
-          <text
-            style="-webkit-text-stroke: 3px black"
-            class="font-extrabold text-white"
-            >Developer</text
-          >
-          <br />
-          Based in <text class="font-extrabold">India.</text>
-        </p>
-        <p class="text-slate-500 w-160 mt-8 mb-30 text-lg">
-          I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to specimen book.
-        </p>
+    <main class="px-25">
+      <div class="introduction py-20 flex flex-row h-full px-10">
+        <div class="w-1/2 flex flex-col justify-between">
+          <div class="intro-text flex flex-col gap-7.5 font-md">
+            <p class="text-6xl">
+              Hello I'am <text class="font-bold">Davis Y Jue.</text>
+            </p>
 
-        <div class="aboutMeMedia flex flex-row gap-5">
-          <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center bg-black"
-          >
-            <img
-              class="w-6 h-6"
-              src="./assets/whiteFacebookLogo.png"
-              alt="Facebook Logo"
-            />
-          </div>
-          <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
-          >
-            <img
-              class="w-6 h-6"
-              src="./assets/redditLogo.png"
-              alt="Reddit Logo"
-            />
-          </div>
-          <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
-          >
-            <img
-              class="w-6 h-6"
-              src="./assets/twitterLogo.png"
-              alt="Twitter Logo"
-            />
-          </div>
-          <div
-            class="w-18 h-18 flex rounded-md border-2 border-black justify-center items-center"
-          >
-            <img
-              class="w-6 h-6"
-              src="./assets/discordLogo.png"
-              alt="Discord Logo"
-            />
-          </div>
-        </div>
-      </div>
+            <p class="text-6xl">
+              <text class="font-bold">Frontend</text>
+              <text
+                style="-webkit-text-stroke: 3px black"
+                class="font-extrabold text-white"
+                >Developer</text
+              >
+            </p>
 
-      <img
-        class="w-200 h-150"
-        src="./assets/boyLogo.png"
-        alt="About Me boyLogo"
-      />
-    </div>
+            <p class="text-6xl">
+              Based in <text class="font-bold">Indonesia.</text>
+            </p>
 
-    <div
-      class="mySkills mt-30 flex flex-col gap-20 w-full justify-center items-center mb-20 px-25"
-      id="mySkills"
-    >
-      <p class="text-5xl">My <text class="font-extrabold">Skills</text></p>
-      <div class="flex flex-col w-full h-95 justify-between">
-        <div class="flex flex-row justify-between">
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-cypress.svg"
-              alt="Cypress Logo"
-            />
-            <p class="text-xl font-bold">Cypress</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-express.svg"
-              alt="Express Logo"
-            />
-            <p class="text-xl font-bold">Express.Js</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-figma.svg"
-              alt="Figma Logo"
-            />
-            <p class="text-xl font-bold">Figma</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img class="w-15 h-15" src="./assets/icon-git.svg" alt="Git Logo" />
-            <p class="text-xl font-bold">Git</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-javscript.svg"
-              alt="Javascript Logo"
-            />
-            <p class="text-xl font-bold">Javascript</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-mongodb.svg"
-              alt="MongoDB Logo"
-            />
-            <p class="text-xl font-bold">MongoDB</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-nest.svg"
-              alt="Nest Logo"
-            />
-            <p class="text-xl font-bold">Nest.Js</p>
-          </div>
-        </div>
-
-        <div class="flex flex-row justify-between">
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-nextjs.svg"
-              alt="NextJS Logo"
-            />
-            <p class="text-xl font-bold">Next.Js</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-nodejs.svg"
-              alt="NodeJS Logo"
-            />
-            <p class="text-xl font-bold">Node.Js</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-react.svg"
-              alt="React Logo"
-            />
-            <p class="text-xl font-bold">React</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-sass.svg"
-              alt="SASS Logo"
-            />
-            <p class="text-xl font-bold">Sass/Scss</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-storybook.svg"
-              alt="Storybook Logo"
-            />
-            <p class="text-xl font-bold">Storybook</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-tailwindcss.svg"
-              alt="Tailwind Logo"
-            />
-            <p class="text-xl font-bold">Tailwind</p>
-          </div>
-
-          <div
-            class="border-2 w-40 h-40 justify-center items-center flex flex-col gap-5"
-          >
-            <img
-              class="w-15 h-15"
-              src="./assets/icon-typescript.svg"
-              alt="Typescript Logo"
-            />
-            <p class="text-xl font-bold">Typescript</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="myExperience bg-black px-25 text-white py-20 w-full flex flex-col justify-center items-center"
-    >
-      <p class="text-5xl mb-20">
-        My <text class="font-extrabold">Experience</text>
-      </p>
-
-      <div class="flex flex-col gap-7 w-full">
-        <div>
-          <div
-            class="border-2 border-zinc-700 rounded-md px-5 py-7 flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="flex flex-row gap-5">
-                <img
-                  class="w-8 h-8"
-                  src="./assets/google.png"
-                  alt="Google Logo"
-                />
-                <p class="text-2xl font-semibold">
-                  Lead Software Engineer at Google
-                </p>
-              </div>
-
-              <p class="text-zinc-400 font-bold">Nov 2019 - Present</p>
-            </div>
-
-            <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
-              As a Senior Software Engineer at Google, I played a pivotal role
-              in developing innovative solutions for Google's core search
-              algorithms. Collaborating with a dynamic team of engineers, I
-              contributed to the enhancement of search accuracy and efficiency,
-              optimizing user experiences for millions of users worldwide.
+            <p class="text-gray-500 text-xl">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, nostrum tempora. Architecto iure, perspiciatis amet
+              harum itaque ipsam atque incidunt, deleniti suscipit at corrupti
+              vitae, laborum possimus excepturi maiores aliquid?
             </p>
           </div>
-        </div>
 
-        <div
-          class="border-2 border-zinc-800 rounded-md px-5 py-7 flex flex-col bg-zinc-800"
-        >
-          <div>
-            <div class="flex flex-row justify-between">
-              <div class="flex flex-row gap-5">
-                <img
-                  class="w-8 h-8"
-                  src="./assets/youtube.png"
-                  alt="Youtube Logo"
-                />
-                <p class="text-2xl font-semibold">
-                  Software Engineer at Youtube
-                </p>
-              </div>
-
-              <p class="text-zinc-400 font-bold">Jan 2017 - Oct 2019</p>
-            </div>
-
-            <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
-              At Youtube, I served as a Software Engineer, focusing on the
-              design and implementation of backend systems for the social media
-              giant's dynamic platform. Working on projects that involved
-              large-scale data processing and user engagement features, I
-              leveraged my expertise to ensure seamless functionality and
-              scalability.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="border-2 border-zinc-700 rounded-md px-5 py-7 flex flex-col"
-        >
-          <div>
-            <div class="flex flex-row justify-between">
-              <div class="flex flex-row gap-5">
-                <img
-                  class="w-8 h-8"
-                  src="./assets/apple.png"
-                  alt="Apple Logo"
-                />
-                <p class="text-2xl font-semibold">
-                  Junior Software Engineer at Apple
-                </p>
-              </div>
-
-              <p class="text-zinc-400 font-bold">Jan 2016 - Dec 2017</p>
-            </div>
-
-            <p class="text-zinc-400 font-semibold text-base mt-5 w-19/20">
-              During my tenure at Apple, I held the role of Software Architect,
-              where I played a key role in shaping the architecture of
-              mission-critical software projects. Responsible for designing
-              scalable and efficient systems, I provided technical leadership to
-              a cross-functional team.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="aboutMe flex flex-row px-25 mt-15 gap-20" id="aboutMe">
-      <img
-        class="w-125 h-125 mb-15"
-        src="assets/aboutMeLogo.png"
-        alt="About Me Logo"
-      />
-      <div>
-        <p class="text-5xl my-6">
-          About <text class="font-extrabold">Me</text>
-        </p>
-
-        <p class="text-zinc-500 font-semibold text-lg mb-6">
-          I'm a passionate, self-proclaimed designer who specializes in full
-          stack development (React.js & Node.js). I am very enthusiastic about
-          bringing the technical and visual aspects of digital products to life.
-          User experience, pixel perfect design, and writing clear, readable,
-          highly performant code matters to me.
-        </p>
-
-        <p class="text-zinc-500 font-semibold text-lg mb-6">
-          I began my journey as a web developer in 2015, and since then, I've
-          continued to grow and evolve as a developer, taking on new challenges
-          and learning the latest technologies along the way. Now, in my early
-          thirties, 7 years after starting my web development journey, I'm
-          building cutting-edge web applications using modern technologies such
-          as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
-        </p>
-
-        <p class="text-zinc-500 font-semibold text-lg mb-6">
-          When I'm not in full-on developer mode, you can find me hovering
-          around on twitter or on indie hacker, witnessing the journey of early
-          startups or enjoying some free time. You can follow me on Twitter
-          where I share tech-related bites and build in public, or you can
-          follow me on GitHub.
-        </p>
-      </div>
-    </div>
-
-    <div
-      class="myProject px-25 py-15 bg-black w-full text-white flex flex-col gap-10"
-      id="myProject"
-    >
-      <p class="text-5xl flex flex-row gap-4 justify-center items-center">
-        My <text class="font-extrabold">Projects</text>
-      </p>
-
-      <div class="flex flex-row justify-center items-center gap-10">
-        <img
-          class="w-175 h-125"
-          src="./assets/myProject1.png"
-          alt="Project 1"
-        />
-        <div class="flex flex-col gap-7">
-          <p class="text-5xl font-extrabold">01</p>
-          <p class="font-bold text-3xl">Crypto Screener Application</p>
-
-          <p class="text-zinc-400 text-base">
-            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to specimen book.
-          </p>
-          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
-        </div>
-      </div>
-
-      <div class="flex flex-row justify-center items-center gap-10">
-        <div class="flex flex-col gap-7">
-          <p class="text-5xl font-extrabold">02</p>
-          <p class="font-bold text-3xl">
-            Euphoria - Ecommerce (Apparels) Website Template
-          </p>
-
-          <p class="text-zinc-400 text-base">
-            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to specimen book. when an unknown
-            printer took a galley of type and scrambled it to specimen book.
-          </p>
-          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
-        </div>
-
-        <img
-          class="w-175 h-125"
-          src="./assets/myProject2.png"
-          alt="Project 2"
-        />
-      </div>
-
-      <div class="flex flex-row justify-center items-center gap-10">
-        <img
-          class="w-175 h-125"
-          src="./assets/myProject3.png"
-          alt="Project 3"
-        />
-        <div class="flex flex-col gap-7">
-          <p class="text-5xl font-extrabold">03</p>
-          <p class="font-bold text-3xl">Blog Website Template</p>
-
-          <p class="text-zinc-400 text-base">
-            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to specimen book.
-          </p>
-          <img class="h-5 w-5" src="./assets/shareLogo.png" alt="Share Logo" />
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="myTestimonial px-25 py-15 flex flex-col justify-center items-center gap-15"
-    >
-      <p class="text-5xl flex flex-row gap-4 justify-center items-center">
-        My <text class="font-extrabold">Testimonial</text>
-      </p>
-
-      <div class="flex flex-row w-full justify-between">
-        <div
-          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center gap-7"
-        >
-          <div class="relative">
-            <img src="./assets/testimoni1.png" alt="Testimonial 1" />
+          <div class="intro-media flex flex-row gap-10">
             <div
-              class="absolute right-0 bottom-0 bg-black rounded-full h-8 w-8 flex justify-center items-center"
+              class="border-black bg-black border-3 w-18 h-18 rounded-md flex justify-center items-center"
             >
               <img
-                class="h-3 w-3"
-                src="./assets/quoteLogoWhite.png"
-                alt="Quote Logo"
-              />
-            </div>
-          </div>
-
-          <p class="text-zinc-600 font-medium">
-            I recently had to jump on 10+ different calls across eight different
-            countries to find the right owner.
-          </p>
-          <hr class="w-40 border-2" />
-          <p class="font-bold text-2xl">Evren Shah</p>
-          <p class="font-semibold text-zinc-500">Designer</p>
-        </div>
-
-        <div
-          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center bg-black text-white gap-7"
-        >
-          <div class="relative">
-            <img src="./assets/testimoni2.png" alt="Testimonial 2" />
-            <div
-              class="absolute right-0 bottom-0 bg-white rounded-full h-8 w-8 flex justify-center items-center"
-            >
-              <img
-                class="h-3 w-3"
-                src="./assets/quoteLogoBlack.png"
-                alt="Quote Logo"
-              />
-            </div>
-          </div>
-
-          <p class="text-white font-medium">
-            I recently had to jump on 10+ different calls across eight different
-            countries to find the right owner.
-          </p>
-          <hr class="w-40 border-2" />
-          <p class="font-bold text-2xl">Flora Sheen</p>
-          <p class="font-semibold text-white">Designer</p>
-        </div>
-
-        <div
-          class="rounded-3xl shadow-2xl flex flex-col justify-center items-center p-10 w-108 text-xl text-center gap-7"
-        >
-          <div class="relative">
-            <img src="./assets/testimoni3.png" alt="Testimonial 3" />
-            <div
-              class="absolute right-0 bottom-0 bg-black rounded-full h-8 w-8 flex justify-center items-center"
-            >
-              <img
-                class="h-3 w-3"
-                src="./assets/quoteLogoWhite.png"
-                alt="Quote Logo"
-              />
-            </div>
-          </div>
-
-          <p class="text-zinc-600 font-medium">
-            I recently had to jump on 10+ different calls across eight different
-            countries to find the right owner.
-          </p>
-          <hr class="w-40 border-2" />
-          <p class="font-bold text-2xl">Evren Shah</p>
-          <p class="font-semibold text-zinc-500">Designer</p>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="getInTouch px-25 py-15 flex flex-row w-full gap-30 justify-center items-center"
-      id="contactMe"
-    >
-      <div class="w-2/5">
-        <div class="flex flex-col gap-5">
-          <input
-            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
-            type="text"
-            placeholder="Your Name"
-            name=""
-            id=""
-          />
-          <input
-            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
-            type="email"
-            placeholder="Email"
-            name=""
-            id=""
-          />
-          <input
-            class="border-2 rounded-md h-15 w-full p-5 font-semibold text-xl"
-            type="text"
-            placeholder="Your Website (If exists)"
-            name=""
-            id=""
-          />
-          <textarea
-            class="border-2 rounded-md h-45 w-full p-5 font-semibold text-xl min-h-45"
-            placeholder="How can I help?*"
-            name=""
-            id=""
-          ></textarea>
-
-          <div class="flex flex-row justify-between h-full">
-            <button
-              class="bg-black text-white font-semibold text-2xl p-5 rounded-xl h-full"
-            >
-              Get In Touch
-            </button>
-
-            <div
-              class="w-18 flex justify-center items-center rounded-xl border-2 bg-black"
-            >
-              <img
-                class="w-6 h-6"
                 src="./assets/whiteFacebookLogo.png"
+                class="w-6 h-6"
                 alt="Facebook Logo"
               />
             </div>
 
             <div
-              class="w-18 flex justify-center items-center rounded-xl border-2"
+              class="border-black border-3 w-18 h-18 rounded-md flex justify-center items-center"
             >
               <img
-                class="w-6 h-6"
                 src="./assets/redditLogo.png"
+                class="w-6 h-6"
                 alt="Reddit Logo"
               />
             </div>
 
             <div
-              class="w-18 flex justify-center items-center rounded-xl border-2"
+              class="border-black border-3 w-18 h-18 rounded-md flex justify-center items-center"
             >
               <img
-                class="w-6 h-6"
                 src="./assets/twitterLogo.png"
+                class="w-6 h-6"
                 alt="Twitter Logo"
               />
             </div>
 
             <div
-              class="w-18 flex justify-center items-center rounded-xl border-2"
+              class="border-black border-3 w-18 h-18 rounded-md flex justify-center items-center"
             >
               <img
-                class="w-6 h-6"
                 src="./assets/discordLogo.png"
+                class="w-6 h-6"
                 alt="Discord Logo"
               />
             </div>
           </div>
         </div>
+
+        <img src="./assets/BoyLogo.png" class="w-1/2 h-full" alt="Boy Logo" />
       </div>
 
-      <div class="w-3/5 flex flex-col gap-10">
-        <div class="flex flex-col gap-10">
-          <p class="text-7xl leading-[1.1] font-extrabold">
-            Let's
-            <text style="-webkit-text-stroke: 3px black" class="text-white"
-              >talk</text
+      <div class="my-skills py-20 pb-25 flex flex-col gap-25">
+        <p class="text-6xl text-center">
+          My <text class="font-bold">Skills</text>
+        </p>
+
+        <div class="class-icons flex flex-col w-full gap-10">
+          <div class="class-icons-group-1 flex flex-row gap-15 px-10">
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
             >
-            for
-            <br />
-            Something special
-          </p>
+              <img
+                src="./assets/icon-git.svg"
+                class="w-20 h-20"
+                alt="Git Icon"
+              />
+              <p class="font-bold text-2xl">Git</p>
+            </div>
 
-          <p class="text-zinc-500 text-xl font-semibold">
-            I seek to push the limits of creativity to create high-engaging,
-            user-friendly, and memorable interactive experiences.
-          </p>
-        </div>
+            <div
+              class="border-black border-4 bg-black rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-javscript-white.svg"
+                class="w-20 h-20"
+                alt="Javascript Icon"
+              />
+              <p class="font-bold text-2xl text-white">Javascript</p>
+            </div>
 
-        <div class="flex flex-col gap-3">
-          <p class="font-bold text-3xl">Youremail@gmail.com</p>
-          <p class="font-bold text-3xl">1234567890</p>
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-sass.svg"
+                class="w-20 h-20"
+                alt="Sass/Scss Icon"
+              />
+              <p class="font-bold text-2xl">Sass/Scss</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-nest.svg"
+                class="w-20 h-20"
+                alt="Nest.Js Icon"
+              />
+              <p class="font-bold text-2xl">Nest.js</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-storybook.svg"
+                class="w-20 h-20"
+                alt="Storybook Icon"
+              />
+              <p class="font-bold text-2xl">Storybook</p>
+            </div>
+          </div>
+
+          <div class="class-icons-group-2 flex flex-row gap-15 px-10">
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-nest.svg"
+                class="w-20 h-20"
+                alt="Nest.Js Icon"
+              />
+              <p class="font-bold text-2xl">Nest.js</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-git.svg"
+                class="w-20 h-20"
+                alt="Git Icon"
+              />
+              <p class="font-bold text-2xl">Git</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-storybook.svg"
+                class="w-20 h-20"
+                alt="Storybook Icon"
+              />
+              <p class="font-bold text-2xl">Storybook</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-socket.svg"
+                class="w-20 h-20"
+                alt="Socket.Io Icon"
+              />
+              <p class="font-bold text-2xl">Socket.io</p>
+            </div>
+
+            <div
+              class="border-black border-4 rounded-md flex flex-col justify-center items-center h-60 w-1/5 gap-5"
+            >
+              <img
+                src="./assets/icon-sass.svg"
+                class="w-20 h-20"
+                alt="Sass/Scss Icon"
+              />
+              <p class="font-bold text-2xl">Sass/Scss</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div
-      class="footer px-25 py-5 text-white bg-black flex flex-row justify-between h-full items-center"
-    >
-      <img
-        class="w-35 h-10"
-        src="./assets/portfolioLogoWhite.png"
-        alt="Portfolio Logo"
-      />
-      <div class="flex flex-col h-full text-right font-semibold text-lg">
-        <p>@ 2019-2023 Personal</p>
-        <p>Made in Figma</p>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
