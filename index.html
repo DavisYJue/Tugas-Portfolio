@@ -234,21 +234,6 @@
           class="grid lg:grid-cols-5 grid-cols-2 gap-10 justify-items-center"
         >
           <div
-            class="border-black border-4 bg-black rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
-          >
-            <img
-              src="./assets/icon-javscript-white.svg"
-              class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Javascript Icon"
-            />
-            <p
-              class="lg:font-bold lg:text-2xl font-semibold text-xl text-white"
-            >
-              Javascript
-            </p>
-          </div>
-
-          <div
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
@@ -268,6 +253,21 @@
               alt="CSS Icon"
             />
             <p class="lg:font-bold lg:text-2xl font-semibold text-xl">CSS</p>
+          </div>
+
+          <div
+            class="border-black border-4 bg-black rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
+          >
+            <img
+              src="./assets/icon-javscript-white.svg"
+              class="lg:w-20 lg:h-20 w-10 h-10"
+              alt="Javascript Icon"
+            />
+            <p
+              class="lg:font-bold lg:text-2xl font-semibold text-xl text-white"
+            >
+              Javascript
+            </p>
           </div>
 
           <div
@@ -376,28 +376,21 @@
                   class="experience-title-1 flex justify-start items-center flex-row gap-7"
                 >
                   <img
-                    src="./assets/google.png"
+                    src="./assets/fantechLogo.png"
                     class="w-10 h-10"
-                    alt="Google Icon"
+                    alt="Fantech Icon"
                   />
                   <p class="font-semibold text-xl lg:text-3xl">
-                    Lead Software Engineer at Google
+                    Web Developer Intern at Fantech
                   </p>
                 </div>
 
                 <p class="font-semibold text-xl mt-5 lg:mt-0 text-gray-300">
-                  Nov 2019 - Present
+                  July 2025 - August 2025
                 </p>
               </div>
 
-              <p class="text-gray-300 text-lg font-semibold">
-                As a Senior Software Engineer at Google, I played a pivotal role
-                in developing innovative solutions for Google's core search
-                algorithms. Collaborating with a dynamic team of engineers, I
-                contributed to the enhancement of search accuracy and
-                efficiency, optimizing user experiences for millions of users
-                worldwide.
-              </p>
+              <p class="text-gray-300 text-lg font-semibold">-</p>
             </div>
 
             <!-- <div
@@ -753,9 +746,11 @@
         </div>
       </div> -->
 
-      <div
+      <form
         class="contact-me py-15 lg:py-25 px-7 lg:px-25 flex flex-col lg:flex-row gap-15 lg:gap-25"
         id="contact-me"
+        action="https://formspree.io/f/xovwoabn"
+        method="POST"
       >
         <div class="contact-box flex flex-col gap-6 w-full lg:w-1/2">
           <input
@@ -764,6 +759,7 @@
             name="username"
             id="username"
             placeholder="Your name"
+            required
           />
 
           <input
@@ -772,6 +768,7 @@
             name="useremail"
             id="useremail"
             placeholder="Email"
+            required
           />
 
           <input
@@ -787,6 +784,7 @@
             name="usercomment"
             id="usercomment"
             placeholder="How can I help?*"
+            required
           ></textarea>
 
           <div class="get-in-touch flex flex-col lg:flex-row gap-6">
@@ -880,7 +878,7 @@
             <p>(+62) 8136167688</p>
           </div>
         </div>
-      </div>
+      </form>
 
       <footer class="bg-black lg:px-25 px-7 py-5 w-full">
         <div class="flex flex-row items-center justify-between">
