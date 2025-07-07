@@ -21,10 +21,10 @@
         class="text-2xl font-bold h-14 hidden lg:flex justify-center items-center"
       >
         <ul class="flex flex-row gap-15">
-          <a href="#about-me">About Me</a>
-          <a href="#my-skills">Skills</a>
-          <a href="#my-projects">Project</a>
-          <a href="#contact-me">Contact Me</a>
+          <a href="#about-me" class="hover:text-gray-500">About Me</a>
+          <a href="#my-skills" class="hover:text-gray-500">Skills</a>
+          <a href="#my-projects" class="hover:text-gray-500">Project</a>
+          <a href="#contact-me" class="hover:text-gray-500">Contact Me</a>
         </ul>
       </nav>
 
@@ -59,17 +59,23 @@
         </div>
       </nav>
 
-      <button
-        type="button"
-        class="bg-black w-40 h-14 text-2xl hidden lg:flex flex-row justify-center items-center text-white gap-3 rounded-md"
+      <a
+        href="assets/InternshipCV.pdf"
+        class="bg-black hover:bg-gray-500 w-40 h-14 text-2xl hidden lg:flex text-white rounded-md"
+        download="InternshipCV"
       >
-        Resume
-        <img
-          src="./assets/download-logo.svg"
-          class="w-6 h-6"
-          alt="Download Logo"
-        />
-      </button>
+        <button
+          type="button"
+          class="flex-row flex gap-3 justify-center items-center w-full"
+        >
+          Resume
+          <img
+            src="./assets/download-logo.svg"
+            class="w-6 h-6"
+            alt="Download Logo"
+          />
+        </button>
+      </a>
     </header>
 
     <div
@@ -109,17 +115,19 @@
           >
         </li>
         <li>
-          <button
-            type="button"
-            class="py-2 px-3 bg-black text-lg flex flex-row justify-center items-center text-white gap-3 rounded-md hover:bg-zinc-700"
-          >
-            Resume
-            <img
-              src="./assets/download-logo.svg"
-              class="w-5 h-5"
-              alt="Download Logo"
-            />
-          </button>
+          <a href="assets/InternshipCV.pdf" download="InternshipCV">
+            <button
+              type="button"
+              class="py-2 px-3 bg-black text-lg flex flex-row justify-center items-center text-white gap-3 rounded-md hover:bg-zinc-700"
+            >
+              Resume
+              <img
+                src="./assets/download-logo.svg"
+                class="w-5 h-5"
+                alt="Download Logo"
+              />
+            </button>
+          </a>
         </li>
       </ul>
     </div>
@@ -148,53 +156,62 @@
             </p>
 
             <p class="text-gray-500 text-xl lg:py-0 pt-7.5 pb-10">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Assumenda, nostrum tempora. Architecto iure, perspiciatis amet
-              harum itaque ipsam atque incidunt, deleniti suscipit at corrupti
-              vitae, laborum possimus excepturi maiores aliquid?
+              I'm Davis Y. Jue, an undergraduate student at South China
+              University of Technology, majoring in Computer Science and
+              Technology. I'm interested in web development and enjoy creating
+              simple, user-friendly websites while learning how to make them
+              better. This portfolio shows some of the projects I've built and
+              the progress I've made as I continue to grow my skills.
             </p>
           </div>
 
           <div class="intro-media flex flex-row gap-3 lg:gap-10">
-            <div
-              class="border-black bg-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-            >
-              <img
-                src="./assets/whiteFacebookLogo.svg"
-                class="w-6 h-6"
-                alt="Facebook Logo"
-              />
-            </div>
+            <a href="https://github.com/DavisYJue"
+              ><div
+                class="border-black border-3 lg:w-18 lg:h-18 lg:hover:bg-gray-500 w-15 h-15 rounded-md flex justify-center items-center"
+              >
+                <img
+                  src="./assets/githubLogo.png"
+                  class="w-6 h-6"
+                  alt="Github Logo"
+                /></div
+            ></a>
 
-            <div
-              class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-            >
-              <img
-                src="./assets/redditLogo.svg"
-                class="w-6 h-6"
-                alt="Reddit Logo"
-              />
-            </div>
+            <a href="https://discordapp.com/users/dyj3890">
+              <div
+                class="border-black border-3 lg:w-18 lg:h-18 lg:hover:bg-gray-500 w-15 h-15 rounded-md flex justify-center items-center"
+              >
+                <img
+                  src="./assets/discordLogo.svg"
+                  class="w-6 h-6"
+                  alt="Discord Logo"
+                />
+              </div>
+            </a>
 
-            <div
-              class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-            >
-              <img
-                src="./assets/twitterLogo.svg"
-                class="w-6 h-6"
-                alt="Twitter Logo"
-              />
-            </div>
+            <a href="https://www.instagram.com/davisyjue/">
+              <div
+                class="border-black bg-black border-3 lg:w-18 lg:h-18 lg:hover:bg-gray-500 w-15 h-15 rounded-md flex justify-center items-center"
+              >
+                <img
+                  src="./assets/instagramLogo.png"
+                  class="w-6 h-6"
+                  alt="Instagram Logo"
+                />
+              </div>
+            </a>
 
-            <div
-              class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-            >
-              <img
-                src="./assets/discordLogo.svg"
-                class="w-6 h-6"
-                alt="Discord Logo"
-              />
-            </div>
+            <a href="https://www.facebook.com/profile.php?id=100011329145279">
+              <div
+                class="border-black bg-black border-3 lg:w-18 lg:h-18 lg:hover:bg-gray-500 w-15 h-15 rounded-md flex justify-center items-center"
+              >
+                <img
+                  src="./assets/whiteFacebookLogo.svg"
+                  class="w-6 h-6"
+                  alt="Facebook Logo"
+                />
+              </div>
+            </a>
           </div>
         </div>
 
@@ -217,17 +234,6 @@
           class="grid lg:grid-cols-5 grid-cols-2 gap-10 justify-items-center"
         >
           <div
-            class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
-          >
-            <img
-              src="./assets/icon-git.svg"
-              class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Git Icon"
-            />
-            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">Git</p>
-          </div>
-
-          <div
             class="border-black border-4 bg-black rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
@@ -246,12 +252,34 @@
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-sass.svg"
+              src="./assets/HTMLicon.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Sass/Scss Icon"
+              alt="HTML Icon"
+            />
+            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">HTML</p>
+          </div>
+
+          <div
+            class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
+          >
+            <img
+              src="./assets/CSSlogo.svg"
+              class="lg:w-20 lg:h-20 w-10 h-10"
+              alt="CSS Icon"
+            />
+            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">CSS</p>
+          </div>
+
+          <div
+            class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
+          >
+            <img
+              src="./assets/bootstrapIcon.svg"
+              class="lg:w-20 lg:h-20 w-10 h-10"
+              alt="Bootstrap Icon"
             />
             <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Sass/Scss
+              Bootstrap
             </p>
           </div>
 
@@ -259,12 +287,12 @@
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-nest.svg"
+              src="./assets/icon-tailwindcss.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Nest.Js Icon"
+              alt="Tailwind Icon"
             />
             <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Nest.js
+              Tailwind
             </p>
           </div>
 
@@ -272,12 +300,12 @@
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-storybook.svg"
+              src="./assets/icon-nextjs.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Storybook Icon"
+              alt="Next.Js Icon"
             />
             <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Storybook
+              Next.js
             </p>
           </div>
 
@@ -285,13 +313,11 @@
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-nest.svg"
+              src="./assets/PHPlogo.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Nest.Js Icon"
+              alt="PHP Icon"
             />
-            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Nest.js
-            </p>
+            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">PHP</p>
           </div>
 
           <div
@@ -309,38 +335,23 @@
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-storybook.svg"
+              src="./assets/mysqlLogo.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Storybook Icon"
+              alt="MySQL Icon"
             />
-            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Storybook
-            </p>
+            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">MySQL</p>
           </div>
 
           <div
             class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
           >
             <img
-              src="./assets/icon-socket.svg"
+              src="./assets/MsOfficeLogo.svg"
               class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Socket.Io Icon"
+              alt="Ms. Office Icon"
             />
             <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Socket.io
-            </p>
-          </div>
-
-          <div
-            class="border-black border-4 rounded-md flex flex-col justify-center items-center lg:h-60 h-30 w-30 lg:w-full lg:gap-10"
-          >
-            <img
-              src="./assets/icon-sass.svg"
-              class="lg:w-20 lg:h-20 w-10 h-10"
-              alt="Sass/Scss Icon"
-            />
-            <p class="lg:font-bold lg:text-2xl font-semibold text-xl">
-              Sass/Scss
+              Ms. Office
             </p>
           </div>
         </div>
@@ -749,52 +760,59 @@
 
           <div class="get-in-touch flex flex-col lg:flex-row gap-6">
             <button
-              class="w-1/2 h-12 lg:h-18 rounded-md bg-black text-white font-semibold text-xl lg:text-3xl"
+              class="w-1/2 h-12 lg:h-18 rounded-md bg-black lg:hover:bg-gray-500 text-white font-semibold text-xl lg:text-3xl xl:text-xl"
               type="submit"
             >
               Get In touch
             </button>
 
-            <div class="flex flex-row gap-3 lg:gap-10">
-              <div
-                class="border-black bg-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-              >
-                <img
-                  src="./assets/whiteFacebookLogo.svg"
-                  class="w-6 h-6"
-                  alt="Facebook Logo"
-                />
-              </div>
+            <div class="intro-media flex flex-row gap-3 lg:gap-10">
+              <a href="https://github.com/DavisYJue"
+                ><div
+                  class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 lg:hover:bg-gray-500 rounded-md flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/githubLogo.png"
+                    class="w-6 h-6"
+                    alt="Github Logo"
+                  /></div
+              ></a>
 
-              <div
-                class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-              >
-                <img
-                  src="./assets/redditLogo.svg"
-                  class="w-6 h-6"
-                  alt="Reddit Logo"
-                />
-              </div>
+              <a href="https://discordapp.com/users/dyj3890">
+                <div
+                  class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 lg:hover:bg-gray-500 rounded-md flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/discordLogo.svg"
+                    class="w-6 h-6"
+                    alt="Discord Logo"
+                  />
+                </div>
+              </a>
 
-              <div
-                class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-              >
-                <img
-                  src="./assets/twitterLogo.svg"
-                  class="w-6 h-6"
-                  alt="Twitter Logo"
-                />
-              </div>
+              <a href="https://www.instagram.com/davisyjue/">
+                <div
+                  class="border-black bg-black border-3 lg:w-18 lg:h-18 w-15 h-15 lg:hover:bg-gray-500 rounded-md flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/instagramLogo.png"
+                    class="w-6 h-6"
+                    alt="Instagram Logo"
+                  />
+                </div>
+              </a>
 
-              <div
-                class="border-black border-3 lg:w-18 lg:h-18 w-15 h-15 rounded-md flex justify-center items-center"
-              >
-                <img
-                  src="./assets/discordLogo.svg"
-                  class="w-6 h-6"
-                  alt="Discord Logo"
-                />
-              </div>
+              <a href="https://www.facebook.com/profile.php?id=100011329145279">
+                <div
+                  class="border-black bg-black border-3 lg:w-18 lg:h-18 w-15 h-15 lg:hover:bg-gray-500 rounded-md flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/whiteFacebookLogo.svg"
+                    class="w-6 h-6"
+                    alt="Facebook Logo"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
